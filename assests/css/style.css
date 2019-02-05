@@ -1,0 +1,33 @@
+header{
+    border: 3px solid black;
+    font-size: 20px;
+    text-align: center;
+    margin: 50px auto;
+    height: 300px;
+    width: 80%;
+}
+
+.Underscore{
+    border: 3px solid black;
+    font-size: 100px;
+    text-align: center;
+    margin: 50px auto;
+    height: 150px;
+    width: 80%;
+}
+.RightGuess{
+    border: 3px solid black;
+    font-size: 50px;
+    text-align: center;
+    margin: 50px auto;
+    height: 150px;
+    width: 80%;
+}
+.WrongGuess{
+    border: 3px solid black;
+    font-size: 50px;
+    text-align: center;
+    margin: 50px auto;
+    height: 150px;
+    width: 80%;
+}
