@@ -1,6 +1,6 @@
 
 body {
-  background-image: url(../images/bg.jpg);
+  background: #053f00;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   color: #fff;
   height: 100%;
@@ -120,9 +120,9 @@ button:hover {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background: #fff;
-  border: solid 1px #fff;
-  color: #c1d72e;
+  background: black;
+  border: solid 3px #fff;
+  color: white;
 }
 
 @media (max-width: 767px) {
