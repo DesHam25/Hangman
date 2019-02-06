@@ -1,4 +1,3 @@
-
 body {
   background: #053f00;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -8,6 +7,12 @@ body {
   font-size: 18px;
 }
 
+
+.fas{
+animation-duration: 4s;
+animation-delay: 1s;
+animation-iteration-count: 2;
+}
 .wrappper {
   width: 100%;
   margin: 0 auto;
@@ -32,7 +37,9 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 2.6em;
+  font-size: 75px;
+  font-family: 'Vibur', cursive;
+  font-family: 'Amatic SC', cursive;
 }
 
 h2 {
@@ -125,7 +132,7 @@ button:hover {
   color: white;
 }
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   #alphabet {
     padding: 0 0 0 15px;
   }
@@ -133,5 +140,4 @@ button:hover {
 @media (max-width: 480px) {
   #alphabet {
     padding: 0 0 0 25px;
-  }
-}
+  } */
