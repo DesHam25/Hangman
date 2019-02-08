@@ -1,12 +1,27 @@
+*{
+  text-shadow: 5px 5px 8px #000000;
+
+}
 body {
   background: #053f00;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  background-repeat: no-repeat;
+  font-family: 'Nunito', sans-serif, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   color: #fff;
   height: 100%;
   text-align: center;
-  font-size: 18px;
+  font-size: 15px;
 }
-
+#background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/assests/images/totally80sBanner_Final.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  opacity: 0.2;
+}
 
 .fas{
 animation-duration: 4s;
@@ -14,7 +29,7 @@ animation-delay: 1s;
 animation-iteration-count: 2;
 }
 .wrappper {
-  width: 100%;
+ width: 100%;
   margin: 0 auto;
 }
 .wrappper:after {
@@ -30,14 +45,14 @@ canvas {
 }
 
 h1, h2, h3 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Libre Baskerville', serif;
   font-weight: 100;
   text-transform: uppercase;
   margin: 5px 0;
 }
 
 h1 {
-  font-size: 75px;
+  font-size: 65px;
   font-family: 'Vibur', cursive;
   font-family: 'Amatic SC', cursive;
 }
@@ -66,16 +81,16 @@ p {
   margin: 0 10px 10px 0;
   list-style: none;
   width: 35px;
-  height: 30px;
+  height: 35px;
   padding-top: 10px;
   background: #fff;
   color: red;
   cursor: pointer;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-  -khtml-border-radius: 5px;
-  border: solid 1px #fff;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border: solid 5px #fff;
 }
 #alphabet li:hover {
   background: black;
@@ -88,7 +103,7 @@ p {
   display: block;
   padding: 0;
   display: block;
-  margin-bottom: 20px;
+  margin: 15px;
 }
 
 #my-word li {
@@ -96,7 +111,7 @@ p {
   list-style: none;
   margin: 0;
   display: inline-block;
-  padding: 0 10px;
+  padding: 0 9px;
   font-size: 1.6em;
 }
 
@@ -104,9 +119,12 @@ p {
   font-size: 1.6em;
   text-align: center;
   display: block;
-  margin-bottom: 20px;
+  margin: 10px;
 }
 
+#clue{
+  margin: 10px;
+}
 button {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -117,9 +135,9 @@ button {
   border: solid 3px #fff;
   text-decoration: none;
   cursor: pointer;
-  font-size: 1.2em;
+  font-size: 2em;
   padding: 18px 10px;
-  width: 180px;
+  width: 160px;
   margin: 10px;
   outline: none;
 }

@@ -5,17 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700|Vibur" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">  
-
+    <link href="css/hover.css" rel="stylesheet" media="all">
 
     <link rel="stylesheet" href="assests/css/reset.css">
     <link rel="stylesheet" href="assests/css/style.css">
     <title>Hangman</title>
 </head>
 <body>
-    
+        <div id="background"></div>
 <div class="container">
     <div class="wrapper">
         <h1> Hangman <i class="fas fa-skull-crossbones animated fadeInLeft"></i></h1>
@@ -33,7 +36,7 @@
           <canvas id="stickman">This Text will show if the Browser does NOT support HTML5 Canvas tag</canvas>
          <div class="container">
            <button id="hint">Hint</button>
-           <button id="reset">Play again</button>
+           <button id="reset"><i class="fas fa-play animated flash"></i> </button>
          </div>
      </div>
 
