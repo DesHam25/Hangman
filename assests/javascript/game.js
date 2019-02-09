@@ -184,7 +184,7 @@ window.onload = function () {
     play = function () {
       categories = [
           ["airhead", "barf-me-out", "bodacious", "chill", "ditz", "dweeb", "eat-my-shorts"],
-          ["Top-Gun", "an-american-werewolf", "the-untouchables", "first-blood", "poltergeist"],
+          ["top-gun", "an-american-werewolf", "the-untouchables", "first-blood", "poltergeist"],
           ["ducktales", "g-i-joe", "ghostbusters", "the-simpsons", "thunder-cats"]
       ];
   
